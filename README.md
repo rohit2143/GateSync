@@ -2,7 +2,7 @@
 
 ### Things todo
 
-1. Clone the repository: `git clone https://github.com/hendisantika/spring-boot-qrcode-generator.git`
+1. Clone the repository: `git clone https://github.com/rohit2143/GateSync`
 2. Navigate to the folder: `cd spring-boot-qrcode-generator`
 3. Run the application: `mvn clean spring-boot:run`
 4. Open your favorite browser: http://localhost:8081
