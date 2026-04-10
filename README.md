@@ -1,76 +1,30 @@
-# spring-boot-qrcode-generator
+# GateSync - QR Code Generator & Decoder
 
-### Things todo
+## 🚀 Overview
+GateSync is a Spring Boot-based web application that generates and decodes QR codes in real time using structured data formats such as URLs, emails, phone numbers, and more.
 
-1. Clone the repository: `git clone https://github.com/rohit2143/GateSync`
-2. Navigate to the folder: `cd spring-boot-qrcode-generator`
-3. Run the application: `mvn clean spring-boot:run`
-4. Open your favorite browser: http://localhost:8081
+## 🛠 Tech Stack
+- Java
+- Spring Boot
+- Thymeleaf
+- ZXing (QR processing)
 
-### Docker Way
+## ✨ Features
+- Generate QR codes for multiple data types
+- Decode QR codes from images
+- Clean layered architecture (Controller, Service, Model, Parser)
 
-Package the app
+## 🧠 Architecture
+- Controller Layer → Handles HTTP requests
+- Service Layer → QR encoding/decoding logic
+- Model Classes → Data structures
+- Parser Classes → Format conversion
 
-```shell
-mvn clean package
-```
+## ❌ Database
+This project does not use a database. It processes data in real time.
 
-Build Dockerfile
-
-```shell
-docker build -t hendisantika/qrcode-generator:latest .
-```
-
-Tag Dockerfile
-
-```shell
-docker tag hendisantika/qrcode-generator:latest hendisantika/qrcode-generator:latest
-```
-
-Run Docker Image
-
-```shell
-docker run -it --rm -p 8081:8081 --name qrcode-generator hendisantika/qrcode-generator:latest
-```
-
-Push Docker to Dockerhub
-
-```shell
-docker push hendisantika/qrcode-generator:latest hendisantika/qrcode-generator:latest
-```
-
-### Images Screenshot
-
-Home Page
-
-![Home Page](img/home.png "Home Page")
-
-QRCode
-
-![QRCode](img/qrcode1.png "QRCode")
-
-![QRCode](img/qrcode2.png "QRCode")
-
-Email
-
-![Email](img/email1.png "Email")
-
-![Email](img/email2.png "Email")
-
-Facetime
-
-![Facetime](img/facetime1.png "Facetime")
-
-![Facetime](img/facetime2.png "Facetime")
-
-Phone Number
-
-![Phone Number](img/phone1.png "Phone Number")
-
-![Phone Number](img/phone2.png "Phone Number")
-
-SMS
-
-![SMS](img/sms1.png "SMS")
-
-![SMS](img/sms2.png "SMS")
+## ▶️ Run Locally
+1. Clone the repo
+2. Open in IDE
+3. Run `SpringBootQrcodeGeneratorApplication.java`
+4. Open `http://localhost:8080`
