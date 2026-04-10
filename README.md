@@ -20,9 +20,6 @@ GateSync is a Spring Boot-based web application that generates and decodes QR co
 - Model Classes → Data structures
 - Parser Classes → Format conversion
 
-## ❌ Database
-This project does not use a database. It processes data in real time.
-
 ## ▶️ Run Locally
 1. Clone the repo
 2. Open in IDE
